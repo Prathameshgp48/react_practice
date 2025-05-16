@@ -6,6 +6,7 @@ import UseState from './components/UseState.jsx'
 import UseEffect from './components/UseEffect.jsx'
 import UseRefRender from './components/UseRef/UseRefRender.jsx'
 import UseRefDOM from './components/UseRef/UseRefDOM.jsx'
+import UseMemo from './components/UseMemo.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,8 @@ function App() {
         {/* <UseState/> */}
         {/* <UseEffect/> */}
         {/* <UseRefRender/> */}
-        <UseRefDOM />
+        {/* <UseRefDOM /> */}
+        <UseMemo/>
       </div>
     </>
   )
