@@ -7,6 +7,7 @@ import UseEffect from './components/UseEffect.jsx'
 import UseRefRender from './components/UseRef/UseRefRender.jsx'
 import UseRefDOM from './components/UseRef/UseRefDOM.jsx'
 import UseMemo from './components/UseMemo.jsx'
+import UseCallBack from './components/UseCallback/UseCallBack.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,8 @@ function App() {
         {/* <UseEffect/> */}
         {/* <UseRefRender/> */}
         {/* <UseRefDOM /> */}
-        <UseMemo/>
+        {/* <UseMemo/> */}
+        <UseCallBack/>
       </div>
     </>
   )
