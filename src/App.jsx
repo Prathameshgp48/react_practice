@@ -8,6 +8,8 @@ import UseRefRender from './components/UseRef/UseRefRender.jsx'
 import UseRefDOM from './components/UseRef/UseRefDOM.jsx'
 import UseMemo from './components/UseMemo.jsx'
 import UseCallBack from './components/UseCallback/UseCallBack.jsx'
+import Profile from './components/UseContext/Profile.jsx'
+import Footer from './components/UseContext/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +22,11 @@ function App() {
         {/* <UseRefRender/> */}
         {/* <UseRefDOM /> */}
         {/* <UseMemo/> */}
-        <UseCallBack/>
+        {/* <UseCallBack/> */}
+        <div>
+          <Profile/>
+          <Footer/>
+        </div>
       </div>
     </>
   )
