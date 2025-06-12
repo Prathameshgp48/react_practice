@@ -24,25 +24,25 @@ function UseState() {
     }
 
     const updateExp = () => {
-        // setExp(exp+1) // fetch initial value of exp i.e 1
-        // setExp(exp+1) // fetch initial value of exp i.e 1
-        // setExp(exp+1) //...
-        // setExp(exp+1) //...
+        setExp(exp+1) // fetch initial value of exp i.e 1
+        setExp(exp+1) // fetch initial value of exp i.e 1
+        setExp(exp+1) //...
+        setExp(exp+1) //...
 
         //to increase exp value by 4
-        console.log(exp)
-        setExp(exp =>{ 
-            console.log(exp)
-            return exp + 1}) 
-        setExp(exp =>{ 
-            console.log(exp)
-            return exp + 1})
-       setExp(exp =>{ 
-            console.log(exp)
-            return exp + 1})
-        setExp(exp =>{ 
-            console.log(exp)
-            return exp + 1})
+    //     console.log(exp)
+    //     setExp(exp =>{ 
+    //         console.log(exp)
+    //         return exp + 1}) 
+    //     setExp(exp =>{ 
+    //         console.log(exp)
+    //         return exp + 1})
+    //    setExp(exp =>{ 
+    //         console.log(exp)
+    //         return exp + 1})
+    //     setExp(exp =>{ 
+    //         console.log(exp)
+    //         return exp + 1})
     }
 
     return (
